@@ -221,7 +221,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb2d: {fileID: 186886885}
-  playerSpeed: 0
+  cam: {fileID: 0}
+  playerSpeed: 5
 --- !u!50 &186886885
 Rigidbody2D:
   serializedVersion: 5

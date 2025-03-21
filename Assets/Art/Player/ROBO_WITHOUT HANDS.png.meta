@@ -642,7 +642,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ROBO_WITHOUT HANDS_18
+      name: ROBO_Hit_0
       rect:
         serializedVersion: 2
         x: 9
@@ -664,7 +664,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ROBO_WITHOUT HANDS_19
+      name: ROBO_Hit_1
       rect:
         serializedVersion: 2
         x: 41
@@ -686,7 +686,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ROBO_WITHOUT HANDS_20
+      name: ROBO_Die_0
       rect:
         serializedVersion: 2
         x: 6
@@ -708,7 +708,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ROBO_WITHOUT HANDS_21
+      name: ROBO_Die_1
       rect:
         serializedVersion: 2
         x: 39
@@ -730,7 +730,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ROBO_WITHOUT HANDS_22
+      name: ROBO_Die_2
       rect:
         serializedVersion: 2
         x: 71
@@ -752,13 +752,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ROBO_WITHOUT HANDS_23
+      name: ROBO_Die_3
       rect:
         serializedVersion: 2
         x: 102
         y: 36
-        width: 57
-        height: 27
+        width: 20
+        height: 23
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -774,7 +774,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ROBO_WITHOUT HANDS_27
+      name: Mana_Bar_1
       rect:
         serializedVersion: 2
         x: 260
@@ -796,12 +796,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ROBO_WITHOUT HANDS_28
+      name: GUN_0
       rect:
         serializedVersion: 2
         x: 0
         y: 3
-        width: 32
+        width: 16
         height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -818,7 +818,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ROBO_WITHOUT HANDS_29
+      name: GUN_2
       rect:
         serializedVersion: 2
         x: 32
@@ -840,7 +840,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ROBO_WITHOUT HANDS_30
+      name: GUN_3
       rect:
         serializedVersion: 2
         x: 48
@@ -862,7 +862,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ROBO_WITHOUT HANDS_31
+      name: GUN_4
       rect:
         serializedVersion: 2
         x: 80
@@ -972,7 +972,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ROBO_WITHOUT HANDS_36
+      name: HP_Bar
       rect:
         serializedVersion: 2
         x: 178
@@ -994,7 +994,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ROBO_WITHOUT HANDS_37
+      name: Chip
       rect:
         serializedVersion: 2
         x: 209
@@ -1016,7 +1016,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ROBO_WITHOUT HANDS_38
+      name: Bullet
       rect:
         serializedVersion: 2
         x: 227
@@ -1038,7 +1038,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ROBO_WITHOUT HANDS_39
+      name: Mana_Bar_0
       rect:
         serializedVersion: 2
         x: 243
@@ -1060,7 +1060,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ROBO_WITHOUT HANDS_40
+      name: Key
       rect:
         serializedVersion: 2
         x: 276
@@ -1081,6 +1081,50 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: ROBO_Die_4
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 35
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bef80908b3924846a479560017d45c5
+      internalID: -723703791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUN_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 3
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7437d83a856d2894c8c19622dbc96461
+      internalID: -1564810414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -1095,6 +1139,24 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Bullet: 2822771124500745151
+      Chip: -7575314309030395987
+      GUN_0: 6392501688519086125
+      GUN_1: -1564810414
+      GUN_2: 7523605706877104864
+      GUN_3: -395446593632404721
+      GUN_4: -175429707830180956
+      HP_Bar: -7348066665621080292
+      Key: 4443990776727839137
+      Mana_Bar_0: -8226224167125223928
+      Mana_Bar_1: -186182281014620176
+      ROBO_Die_0: -4010266650617392440
+      ROBO_Die_1: 2830773383624185138
+      ROBO_Die_2: -1121718729395269272
+      ROBO_Die_3: 1548384766690738962
+      ROBO_Die_4: -723703791
+      ROBO_Hit_0: 3975451085255012696
+      ROBO_Hit_1: 9023760295816537145
       ROBO_Idle_0: 1955705526970203076
       ROBO_Idle_1: 5530239614932958385
       ROBO_Idle_2: 8706478990568329165
@@ -1107,29 +1169,13 @@ TextureImporter:
       ROBO_Roll_5: 6121142439659519845
       ROBO_Roll_6: 4598197759410142643
       ROBO_Roll_7: -1923842147665531028
-      ROBO_WITHOUT HANDS_18: 3975451085255012696
-      ROBO_WITHOUT HANDS_19: 9023760295816537145
-      ROBO_WITHOUT HANDS_20: -4010266650617392440
-      ROBO_WITHOUT HANDS_21: 2830773383624185138
-      ROBO_WITHOUT HANDS_22: -1121718729395269272
-      ROBO_WITHOUT HANDS_23: 1548384766690738962
       ROBO_WITHOUT HANDS_24: -6860830887861278934
       ROBO_WITHOUT HANDS_25: -6528723042761122018
       ROBO_WITHOUT HANDS_26: 4429488149635344547
-      ROBO_WITHOUT HANDS_27: -186182281014620176
-      ROBO_WITHOUT HANDS_28: 6392501688519086125
-      ROBO_WITHOUT HANDS_29: 7523605706877104864
-      ROBO_WITHOUT HANDS_30: -395446593632404721
-      ROBO_WITHOUT HANDS_31: -175429707830180956
       ROBO_WITHOUT HANDS_32: 7902620405633237491
       ROBO_WITHOUT HANDS_33: -1314170622728576669
       ROBO_WITHOUT HANDS_34: 2852771618283463774
       ROBO_WITHOUT HANDS_35: 797856612881660103
-      ROBO_WITHOUT HANDS_36: -7348066665621080292
-      ROBO_WITHOUT HANDS_37: -7575314309030395987
-      ROBO_WITHOUT HANDS_38: 2822771124500745151
-      ROBO_WITHOUT HANDS_39: -8226224167125223928
-      ROBO_WITHOUT HANDS_40: 4443990776727839137
       ROBO_WITHOUT HANDS_8: 1356402553535295137
       ROBO_WITHOUT HANDS_9: -5437087358621406875
       ROBO_Walk_0: -8795980186166615038
