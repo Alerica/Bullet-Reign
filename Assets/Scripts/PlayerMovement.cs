@@ -27,7 +27,7 @@ public class PlayerMovement : MonoBehaviour
         rb2d.MovePosition(rb2d.position + movement * playerSpeed * Time.fixedDeltaTime);  
 
         Vector2 lookDirection = mousePosition - rb2d.position;
-        float angle = Mathf.Atan2(lookDirection.y, lookDirection.x) * Mathf.Rad2Deg - 90f;
+        float angle = Mathf.Atan2(lookDirection.y, lookDirection.x) * Mathf.Rad2Deg;
         gun.rotation = Quaternion.Euler(0, 0, angle);
     }
 }
