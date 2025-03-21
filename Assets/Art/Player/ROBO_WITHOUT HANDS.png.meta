@@ -1,0 +1,1143 @@
+fileFormatVersion: 2
+guid: 904e50887da40b1468a86a901b41460b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1955705526970203076
+    second: ROBO_WITHOUT HANDS_0
+  - first:
+      213: 5530239614932958385
+    second: ROBO_WITHOUT HANDS_1
+  - first:
+      213: 8706478990568329165
+    second: ROBO_WITHOUT HANDS_2
+  - first:
+      213: -521832137081519261
+    second: ROBO_WITHOUT HANDS_3
+  - first:
+      213: -8795980186166615038
+    second: ROBO_WITHOUT HANDS_4
+  - first:
+      213: 2816929045190306959
+    second: ROBO_WITHOUT HANDS_5
+  - first:
+      213: 3892770282939610249
+    second: ROBO_WITHOUT HANDS_6
+  - first:
+      213: -3983238115427412693
+    second: ROBO_WITHOUT HANDS_7
+  - first:
+      213: 1356402553535295137
+    second: ROBO_WITHOUT HANDS_8
+  - first:
+      213: -5437087358621406875
+    second: ROBO_WITHOUT HANDS_9
+  - first:
+      213: 1426600033637748155
+    second: ROBO_WITHOUT HANDS_10
+  - first:
+      213: 7831707938279927109
+    second: ROBO_WITHOUT HANDS_11
+  - first:
+      213: 727197114094849848
+    second: ROBO_WITHOUT HANDS_12
+  - first:
+      213: 3588886048637288408
+    second: ROBO_WITHOUT HANDS_13
+  - first:
+      213: 1277154178909827644
+    second: ROBO_WITHOUT HANDS_14
+  - first:
+      213: 6121142439659519845
+    second: ROBO_WITHOUT HANDS_15
+  - first:
+      213: 4598197759410142643
+    second: ROBO_WITHOUT HANDS_16
+  - first:
+      213: -1923842147665531028
+    second: ROBO_WITHOUT HANDS_17
+  - first:
+      213: 3975451085255012696
+    second: ROBO_WITHOUT HANDS_18
+  - first:
+      213: 9023760295816537145
+    second: ROBO_WITHOUT HANDS_19
+  - first:
+      213: -4010266650617392440
+    second: ROBO_WITHOUT HANDS_20
+  - first:
+      213: 2830773383624185138
+    second: ROBO_WITHOUT HANDS_21
+  - first:
+      213: -1121718729395269272
+    second: ROBO_WITHOUT HANDS_22
+  - first:
+      213: 1548384766690738962
+    second: ROBO_WITHOUT HANDS_23
+  - first:
+      213: -6860830887861278934
+    second: ROBO_WITHOUT HANDS_24
+  - first:
+      213: -6528723042761122018
+    second: ROBO_WITHOUT HANDS_25
+  - first:
+      213: 4429488149635344547
+    second: ROBO_WITHOUT HANDS_26
+  - first:
+      213: -186182281014620176
+    second: ROBO_WITHOUT HANDS_27
+  - first:
+      213: 6392501688519086125
+    second: ROBO_WITHOUT HANDS_28
+  - first:
+      213: 7523605706877104864
+    second: ROBO_WITHOUT HANDS_29
+  - first:
+      213: -395446593632404721
+    second: ROBO_WITHOUT HANDS_30
+  - first:
+      213: -175429707830180956
+    second: ROBO_WITHOUT HANDS_31
+  - first:
+      213: 7902620405633237491
+    second: ROBO_WITHOUT HANDS_32
+  - first:
+      213: -1314170622728576669
+    second: ROBO_WITHOUT HANDS_33
+  - first:
+      213: 2852771618283463774
+    second: ROBO_WITHOUT HANDS_34
+  - first:
+      213: 797856612881660103
+    second: ROBO_WITHOUT HANDS_35
+  - first:
+      213: -7348066665621080292
+    second: ROBO_WITHOUT HANDS_36
+  - first:
+      213: -7575314309030395987
+    second: ROBO_WITHOUT HANDS_37
+  - first:
+      213: 2822771124500745151
+    second: ROBO_WITHOUT HANDS_38
+  - first:
+      213: -8226224167125223928
+    second: ROBO_WITHOUT HANDS_39
+  - first:
+      213: 4443990776727839137
+    second: ROBO_WITHOUT HANDS_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ROBO_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 191
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cbb354a0df042b10800000000000000
+      internalID: 1955705526970203076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBO_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 191
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc3fda11ab5fbc40800000000000000
+      internalID: 5530239614932958385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBO_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 191
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcf0a355380a3d870800000000000000
+      internalID: 8706478990568329165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBO_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 191
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3638fd4af6412c8f0800000000000000
+      internalID: -521832137081519261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBO_Walk_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 159
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2042a20bf966ee580800000000000000
+      internalID: -8795980186166615038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBO_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 160
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8c6c08ba0eb71720800000000000000
+      internalID: 2816929045190306959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBO_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 159
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 984ffc292f5e50630800000000000000
+      internalID: 3892770282939610249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBO_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 159
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b251722c902b8b8c0800000000000000
+      internalID: -3983238115427412693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBO_WITHOUT HANDS_8
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 127
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae67e79fe8e2d210800000000000000
+      internalID: 1356402553535295137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBO_WITHOUT HANDS_9
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 127
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 569aa90bad59b84b0800000000000000
+      internalID: -5437087358621406875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBO_Roll_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 96
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbdc9811c2d4cc310800000000000000
+      internalID: 1426600033637748155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBO_Roll_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 98
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54d28cd20e0dfac60800000000000000
+      internalID: 7831707938279927109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBO_Roll_2
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 96
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f00532ce5871a00800000000000000
+      internalID: 727197114094849848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBO_Roll_3
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 96
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df7164b8d84ec130800000000000000
+      internalID: 3588886048637288408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBO_Roll_4
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 95
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c32735585fc59b110800000000000000
+      internalID: 1277154178909827644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBO_Roll_5
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 95
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56f397f1e9aa2f450800000000000000
+      internalID: 6121142439659519845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBO_Roll_6
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 95
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd73a8ff7410df30800000000000000
+      internalID: 4598197759410142643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBO_Roll_7
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 95
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6fa87872c32d45e0800000000000000
+      internalID: -1923842147665531028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBO_WITHOUT HANDS_18
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 65
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851f09ef2b3ab2730800000000000000
+      internalID: 3975451085255012696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBO_WITHOUT HANDS_19
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 65
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9342b6add26da3d70800000000000000
+      internalID: 9023760295816537145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBO_WITHOUT HANDS_20
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 33
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c2da538abba858c0800000000000000
+      internalID: -4010266650617392440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBO_WITHOUT HANDS_21
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 35
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 235dc82f46de84720800000000000000
+      internalID: 2830773383624185138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBO_WITHOUT HANDS_22
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 35
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8611e7c32cade60f0800000000000000
+      internalID: -1121718729395269272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBO_WITHOUT HANDS_23
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 36
+        width: 57
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2134a3addb7fc7510800000000000000
+      internalID: 1548384766690738962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBO_WITHOUT HANDS_27
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 18
+        width: 36
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ffc6aca33c8a6df0800000000000000
+      internalID: -186182281014620176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBO_WITHOUT HANDS_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d20d342ba6ab6b850800000000000000
+      internalID: 6392501688519086125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBO_WITHOUT HANDS_29
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 3
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e2f2845787396860800000000000000
+      internalID: 7523605706877104864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBO_WITHOUT HANDS_30
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 3
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0bf6e21b67138af0800000000000000
+      internalID: -395446593632404721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBO_WITHOUT HANDS_31
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 3
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a34bb53c9fb09df0800000000000000
+      internalID: -175429707830180956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBO_WITHOUT HANDS_32
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 2
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f1c588936fbbad60800000000000000
+      internalID: 7902620405633237491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBO_WITHOUT HANDS_33
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 2
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 361620a08c023cde0800000000000000
+      internalID: -1314170622728576669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBO_WITHOUT HANDS_34
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e542a151ca4179720800000000000000
+      internalID: 2852771618283463774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBO_WITHOUT HANDS_35
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 2
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c8f188bc5e821b00800000000000000
+      internalID: 797856612881660103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBO_WITHOUT HANDS_36
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 3
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1734c1ac4c660a90800000000000000
+      internalID: -7348066665621080292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBO_WITHOUT HANDS_37
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 0
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daf3f4c85c31fd690800000000000000
+      internalID: -7575314309030395987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBO_WITHOUT HANDS_38
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbbc81ec16f7c2720800000000000000
+      internalID: 2822771124500745151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBO_WITHOUT HANDS_39
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 2
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80674c354b496dd80800000000000000
+      internalID: -8226224167125223928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBO_WITHOUT HANDS_40
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 0
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a1a9ffe01a3cad30800000000000000
+      internalID: 4443990776727839137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ROBO_Idle_0: 1955705526970203076
+      ROBO_Idle_1: 5530239614932958385
+      ROBO_Idle_2: 8706478990568329165
+      ROBO_Idle_3: -521832137081519261
+      ROBO_Roll_0: 1426600033637748155
+      ROBO_Roll_1: 7831707938279927109
+      ROBO_Roll_2: 727197114094849848
+      ROBO_Roll_3: 3588886048637288408
+      ROBO_Roll_4: 1277154178909827644
+      ROBO_Roll_5: 6121142439659519845
+      ROBO_Roll_6: 4598197759410142643
+      ROBO_Roll_7: -1923842147665531028
+      ROBO_WITHOUT HANDS_18: 3975451085255012696
+      ROBO_WITHOUT HANDS_19: 9023760295816537145
+      ROBO_WITHOUT HANDS_20: -4010266650617392440
+      ROBO_WITHOUT HANDS_21: 2830773383624185138
+      ROBO_WITHOUT HANDS_22: -1121718729395269272
+      ROBO_WITHOUT HANDS_23: 1548384766690738962
+      ROBO_WITHOUT HANDS_24: -6860830887861278934
+      ROBO_WITHOUT HANDS_25: -6528723042761122018
+      ROBO_WITHOUT HANDS_26: 4429488149635344547
+      ROBO_WITHOUT HANDS_27: -186182281014620176
+      ROBO_WITHOUT HANDS_28: 6392501688519086125
+      ROBO_WITHOUT HANDS_29: 7523605706877104864
+      ROBO_WITHOUT HANDS_30: -395446593632404721
+      ROBO_WITHOUT HANDS_31: -175429707830180956
+      ROBO_WITHOUT HANDS_32: 7902620405633237491
+      ROBO_WITHOUT HANDS_33: -1314170622728576669
+      ROBO_WITHOUT HANDS_34: 2852771618283463774
+      ROBO_WITHOUT HANDS_35: 797856612881660103
+      ROBO_WITHOUT HANDS_36: -7348066665621080292
+      ROBO_WITHOUT HANDS_37: -7575314309030395987
+      ROBO_WITHOUT HANDS_38: 2822771124500745151
+      ROBO_WITHOUT HANDS_39: -8226224167125223928
+      ROBO_WITHOUT HANDS_40: 4443990776727839137
+      ROBO_WITHOUT HANDS_8: 1356402553535295137
+      ROBO_WITHOUT HANDS_9: -5437087358621406875
+      ROBO_Walk_0: -8795980186166615038
+      ROBO_Walk_1: 2816929045190306959
+      ROBO_Walk_2: 3892770282939610249
+      ROBO_Walk_3: -3983238115427412693
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
