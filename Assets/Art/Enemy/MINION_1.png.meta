@@ -103,7 +103,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -112,7 +112,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -192,7 +192,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MINION_1_0
+      name: Undead_Idle_0
       rect:
         serializedVersion: 2
         x: 9
@@ -200,7 +200,7 @@ TextureImporter:
         width: 16
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -214,7 +214,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MINION_1_1
+      name: Undead_Idle_1
       rect:
         serializedVersion: 2
         x: 41
@@ -222,7 +222,7 @@ TextureImporter:
         width: 16
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MINION_1_2
+      name: Undead_Idle_2
       rect:
         serializedVersion: 2
         x: 71
@@ -244,7 +244,7 @@ TextureImporter:
         width: 19
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -258,7 +258,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MINION_1_3
+      name: Undead_Idle_3
       rect:
         serializedVersion: 2
         x: 105
@@ -266,7 +266,7 @@ TextureImporter:
         width: 16
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -280,7 +280,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MINION_1_4
+      name: Undead_Walk_0
       rect:
         serializedVersion: 2
         x: 10
@@ -288,7 +288,7 @@ TextureImporter:
         width: 15
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -302,7 +302,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MINION_1_5
+      name: Undead_Walk_1
       rect:
         serializedVersion: 2
         x: 41
@@ -310,7 +310,7 @@ TextureImporter:
         width: 16
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -324,7 +324,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MINION_1_6
+      name: Undead_Walk_2
       rect:
         serializedVersion: 2
         x: 74
@@ -332,7 +332,7 @@ TextureImporter:
         width: 15
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -346,7 +346,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MINION_1_7
+      name: Undead_Walk_3
       rect:
         serializedVersion: 2
         x: 104
@@ -354,7 +354,7 @@ TextureImporter:
         width: 17
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -368,7 +368,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MINION_1_8
+      name: Undead_Attack_0
       rect:
         serializedVersion: 2
         x: 8
@@ -376,7 +376,7 @@ TextureImporter:
         width: 17
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -390,7 +390,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MINION_1_9
+      name: Undead_Attack_1
       rect:
         serializedVersion: 2
         x: 40
@@ -398,7 +398,7 @@ TextureImporter:
         width: 17
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -412,7 +412,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MINION_1_10
+      name: Undead_Attack_2
       rect:
         serializedVersion: 2
         x: 72
@@ -420,7 +420,7 @@ TextureImporter:
         width: 17
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -434,7 +434,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MINION_1_11
+      name: Undead_Attack_3
       rect:
         serializedVersion: 2
         x: 106
@@ -442,7 +442,7 @@ TextureImporter:
         width: 15
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -456,7 +456,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MINION_1_12
+      name: Undead_Hit_0
       rect:
         serializedVersion: 2
         x: 8
@@ -464,7 +464,7 @@ TextureImporter:
         width: 17
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -478,7 +478,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MINION_1_13
+      name: Undead_Hit_1
       rect:
         serializedVersion: 2
         x: 39
@@ -486,7 +486,7 @@ TextureImporter:
         width: 17
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -500,7 +500,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MINION_1_14
+      name: Undead_Dead_Var_0
       rect:
         serializedVersion: 2
         x: 8
@@ -508,7 +508,7 @@ TextureImporter:
         width: 17
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -522,7 +522,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MINION_1_15
+      name: Undead_Dead_Var_1
       rect:
         serializedVersion: 2
         x: 40
@@ -530,7 +530,7 @@ TextureImporter:
         width: 17
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -544,7 +544,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MINION_1_16
+      name: Undead_Dead_0
       rect:
         serializedVersion: 2
         x: 6
@@ -552,7 +552,7 @@ TextureImporter:
         width: 22
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -566,7 +566,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MINION_1_17
+      name: Undead_Dead_1
       rect:
         serializedVersion: 2
         x: 39
@@ -574,7 +574,7 @@ TextureImporter:
         width: 17
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -588,7 +588,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MINION_1_18
+      name: Undead_Dead_2
       rect:
         serializedVersion: 2
         x: 71
@@ -596,7 +596,7 @@ TextureImporter:
         width: 18
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -610,15 +610,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MINION_1_19
+      name: Undead_Dead_3
       rect:
         serializedVersion: 2
         x: 102
         y: 4
-        width: 57
+        width: 21
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -632,15 +632,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MINION_1_20
+      name: Undead_Dead_4
       rect:
         serializedVersion: 2
-        x: 102
-        y: 18
-        width: 6
-        height: 6
+        x: 128
+        y: 2
+        width: 32
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -649,50 +649,6 @@ TextureImporter:
       bones: []
       spriteID: 686efe2ddda8080f0800000000000000
       internalID: -1116740022256540026
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MINION_1_21
-      rect:
-        serializedVersion: 2
-        x: 109
-        y: 16
-        width: 7
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b6e1c05ee46925510800000000000000
-      internalID: 1536455688481152619
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MINION_1_22
-      rect:
-        serializedVersion: 2
-        x: 114
-        y: 5
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: edd0fa7f5fbe69330800000000000000
-      internalID: 3717417984095882718
       vertices: []
       indices: 
       edges: []
@@ -711,29 +667,29 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      MINION_1_0: 7306454602626371609
-      MINION_1_1: -7604090291741881879
-      MINION_1_10: 5725192240966018245
-      MINION_1_11: 9139069792266953271
-      MINION_1_12: -5368701874723462259
-      MINION_1_13: -1882966073442250865
-      MINION_1_14: -3528550126013460627
-      MINION_1_15: 779934384818458567
-      MINION_1_16: -5674333274043640132
-      MINION_1_17: -3174078165114777046
-      MINION_1_18: 8846868005005767058
-      MINION_1_19: 4465316581977157169
-      MINION_1_2: -4144781775571168980
-      MINION_1_20: -1116740022256540026
       MINION_1_21: 1536455688481152619
       MINION_1_22: 3717417984095882718
-      MINION_1_3: 3173675097476934371
-      MINION_1_4: 3630743947332749047
-      MINION_1_5: 1475856949904642920
-      MINION_1_6: -3600255748303825831
-      MINION_1_7: -5427640446249440152
-      MINION_1_8: 2545969684431005394
-      MINION_1_9: 6247575822770097636
+      Undead_Attack_0: 2545969684431005394
+      Undead_Attack_1: 6247575822770097636
+      Undead_Attack_2: 5725192240966018245
+      Undead_Attack_3: 9139069792266953271
+      Undead_Dead_0: -5674333274043640132
+      Undead_Dead_1: -3174078165114777046
+      Undead_Dead_2: 8846868005005767058
+      Undead_Dead_3: 4465316581977157169
+      Undead_Dead_4: -1116740022256540026
+      Undead_Dead_Var_0: -3528550126013460627
+      Undead_Dead_Var_1: 779934384818458567
+      Undead_Hit_0: -5368701874723462259
+      Undead_Hit_1: -1882966073442250865
+      Undead_Idle_0: 7306454602626371609
+      Undead_Idle_1: -7604090291741881879
+      Undead_Idle_2: -4144781775571168980
+      Undead_Idle_3: 3173675097476934371
+      Undead_Walk_0: 3630743947332749047
+      Undead_Walk_1: 1475856949904642920
+      Undead_Walk_2: -3600255748303825831
+      Undead_Walk_3: -5427640446249440152
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
