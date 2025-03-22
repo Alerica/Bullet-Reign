@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 8264050893267260239}
   - component: {fileID: 4373140920553312641}
   - component: {fileID: 8102193716815847813}
-  m_Layer: 0
+  - component: {fileID: 7085993120385429722}
+  m_Layer: 6
   m_Name: Bullet Default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -176,3 +177,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitEffect: {fileID: 4827056057733735983, guid: 0c0c8133f40656549a8d00a973a5166c, type: 3}
+--- !u!95 &7085993120385429722
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4010754541148425736}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7e38c983c64c8ee43a11768b893023c9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
