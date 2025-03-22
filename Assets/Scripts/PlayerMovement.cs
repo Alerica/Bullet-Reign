@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -8,6 +9,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Camera cam;
     [SerializeField] private Transform gun;
     [SerializeField] private SpriteRenderer spriteRenderer; 
+    [SerializeField] private Slider rollCooldownBar;
+    [SerializeField] private GameObject rollCooldownBarObject;
+
     private Animator animator;
 
     [Header("Attributes")]
@@ -31,6 +35,10 @@ public class PlayerMovement : MonoBehaviour
     {
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
+        if (movement.sqrMagnitude > 1)
+        {
+            movement = movement.normalized;
+        }
         Debug.Log("Position X: " + movement.x + " Y: " + movement.y);
 
         if (movement.x > 0)
@@ -44,7 +52,7 @@ public class PlayerMovement : MonoBehaviour
 
 
         // Roll Mechanic
-         if (Input.GetKeyDown(KeyCode.Space) && canRoll)
+        if (Input.GetKeyDown(KeyCode.Space) && canRoll)
         {
             StartCoroutine(Roll());
         }
@@ -52,9 +60,10 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        // Sprint
+        
         float currentSpeed = movementSpeed;
 
+        // Sprint
         if (Input.GetKey(KeyCode.LeftShift))
         {
             currentSpeed *= sprintMultiplier;
@@ -78,13 +87,26 @@ public class PlayerMovement : MonoBehaviour
         canRoll = false;
         animator.SetBool("IsRolling", true);
 
+        rollCooldownBarObject.SetActive(true); 
+        rollCooldownBar.value = 0; 
+
         yield return new WaitForSeconds(rollDuration);
 
         isRolling = false;
         animator.SetBool("IsRolling", false);
 
-        yield return new WaitForSeconds(rollCooldown);
+        float elapsedTime = 0f;
+        while (elapsedTime < rollCooldown)
+        {
+            elapsedTime += Time.deltaTime;
+            rollCooldownBar.value = elapsedTime / rollCooldown;
+            yield return null;
+        }
 
+        rollCooldownBar.value = 1; 
+
+        rollCooldownBarObject.SetActive(false); 
         canRoll = true;
     }
+
 }
