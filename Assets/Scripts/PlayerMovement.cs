@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Slider rollCooldownBar;
     [SerializeField] private GameObject rollCooldownBarObject;
 
+
     private Animator animator;
 
     [Header("Attributes")]
@@ -20,11 +21,15 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float rollMultiplier = 2f; 
     [SerializeField] private float rollDuration = 0.5f;
     [SerializeField] private float rollCooldown = 2f;
+    private float teleportCooldown = 0.2f; 
 
     Vector2 movement = Vector2.zero;
     Vector2 mousePosition = Vector2.zero;
     private bool isRolling = false;
     private bool canRoll = true;
+
+    public bool canTeleport = true;
+    
 
     void Awake()
     {
@@ -39,7 +44,7 @@ public class PlayerMovement : MonoBehaviour
         {
             movement = movement.normalized;
         }
-        Debug.Log("Position X: " + movement.x + " Y: " + movement.y);
+        // Debug.Log("Position X: " + movement.x + " Y: " + movement.y);
 
         if (movement.x > 0)
             spriteRenderer.flipX = false;
@@ -107,6 +112,22 @@ public class PlayerMovement : MonoBehaviour
 
         rollCooldownBarObject.SetActive(false); 
         canRoll = true;
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Door") && canTeleport)
+        {
+            Debug.Log("Entering Door");
+            StartCoroutine(TeleportCooldown());
+        }
+    }
+
+    private IEnumerator TeleportCooldown()
+    {
+        canTeleport = false; 
+        yield return new WaitForSeconds(teleportCooldown);
+        canTeleport = true; 
     }
 
 }
