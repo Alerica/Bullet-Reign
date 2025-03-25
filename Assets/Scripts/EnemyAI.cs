@@ -4,7 +4,7 @@ public class EnemyAI : MonoBehaviour
 {
     [Header("Enemy Stats")]
     [SerializeField] private float moveSpeed = 2f;
-    [SerializeField] private int maxHealth = 3;
+    [SerializeField] private int maxHealth = 60;
     
     private int currentHealth;
     private Transform player;

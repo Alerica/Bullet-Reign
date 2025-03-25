@@ -20,7 +20,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float sprintMultiplier = 1.4f;
     [SerializeField] private float rollMultiplier = 2f; 
     [SerializeField] private float rollDuration = 0.5f;
-    [SerializeField] private float rollCooldown = 1.3f;
+    [SerializeField] private float rollCooldown = 0.9f;
     private float teleportCooldown = 0.2f; 
 
     Vector2 movement = Vector2.zero;

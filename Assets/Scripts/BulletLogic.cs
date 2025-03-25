@@ -4,7 +4,7 @@ public class BulletLogic : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] private GameObject hitEffect;
-    [SerializeField] private int damage = 1;
+    [SerializeField] private int damage = 10;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
