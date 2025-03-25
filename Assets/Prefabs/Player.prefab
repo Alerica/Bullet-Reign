@@ -408,7 +408,8 @@ MonoBehaviour:
   sprintMultiplier: 1.4
   rollMultiplier: 2
   rollDuration: 0.5
-  rollCooldown: 2
+  rollCooldown: 1.3
+  canTeleport: 1
 --- !u!114 &172328580337246428
 MonoBehaviour:
   m_ObjectHideFlags: 0

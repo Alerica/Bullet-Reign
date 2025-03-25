@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 public class Room : MonoBehaviour
 {
@@ -11,6 +12,11 @@ public class Room : MonoBehaviour
     [SerializeField] GameObject bottomWall;
     [SerializeField] GameObject leftWall;
     [SerializeField] GameObject rightWall;
+    [SerializeField] EnemySpawner enemySpawner;
+    List<GameObject> enemies = new List<GameObject>();
+
+    private List<GameObject> closedDoors = new List<GameObject>(); 
+    private bool roomCleared = false;
 
     public Vector2Int RoomIndex { get; set;}
 
@@ -35,6 +41,91 @@ public class Room : MonoBehaviour
         {
             rightDoor.SetActive(true);
         }
+    }
+
+    private void ActivateDoor(GameObject door)
+    {
+        if (door != null)
+        {
+            door.SetActive(true);
+        }
+    }
+
+    private void DeactivateDoor(GameObject door)
+    {
+        if (door != null && door.activeSelf)
+        {
+            closedDoors.Add(door);
+            door.SetActive(false);
+        }
+    }
+
+    private void LockDoors()
+    {
+        closedDoors.Clear(); 
+
+        DeactivateDoor(topDoor);
+        DeactivateDoor(bottomDoor);
+        DeactivateDoor(leftDoor);
+        DeactivateDoor(rightDoor);
+    }
+
+    private void UnlockDoors()
+    {
+        foreach (GameObject door in closedDoors)
+        {
+            ActivateDoor(door);
+        }
+        closedDoors.Clear();
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        Debug.Log($"Player entering room {this.name}");
+        if (other.CompareTag("Player") && !roomCleared)
+        {
+            ActivateRoom();
+        }
+    }
+
+    private void ActivateRoom()
+    {
+        if (gameObject.name == StringManager.initialRoom) return;
+        if (enemies == null || enemies.Count == 0) 
+        {
+            enemies = enemySpawner.SpawnEnemies(this);
+        }
+
+        foreach (GameObject enemy in enemies)
+        {
+            enemy.SetActive(true);
+        }
+
+        LockDoors();
+    }
+
+
+    public void EnemyDefeated(GameObject enemy)
+    {
+        enemies.Remove(enemy);
+        Debug.Log("Enemy Defeated");
+        if (AllEnemiesDefeated())
+        {
+            roomCleared = true;
+            UnlockDoors();
+        }
+    }
+
+    private bool AllEnemiesDefeated()
+    {
+        foreach (GameObject enemy in enemies)
+        {
+            if (enemy.activeInHierarchy)
+            {
+                return false;
+            }
+        }
+        return true;
     }
 
 }

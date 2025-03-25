@@ -502,9 +502,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomPrefab: {fileID: 5309407948471744912, guid: 4d47b10eb2d9dad43801234a16b9ab0e, type: 3}
+  player: {fileID: 1943595088}
   maxRooms: 15
   minRooms: 10
-  maxClusteredRoom: 2
+  maxClusteredRoom: 1
   gridSizeX: 20
   gridSizeY: 20
 --- !u!1 &981625639
@@ -614,6 +615,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1943595088 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3538391133967589919, guid: 3d4c8a3f256e7394a842b6fc0bfca137, type: 3}
+  m_PrefabInstance: {fileID: 4322118882991636104}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3490385844313086889
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -622,18 +628,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 8038826196241626014, guid: 5cbeb380af389de4faa68e619a7b299a, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 8038826196241626014, guid: 5cbeb380af389de4faa68e619a7b299a, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 8038826196241626014, guid: 5cbeb380af389de4faa68e619a7b299a, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 8038826196241626014, guid: 5cbeb380af389de4faa68e619a7b299a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.24
