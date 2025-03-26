@@ -3327,6 +3327,8 @@ MonoBehaviour:
   leftWall: {fileID: 4991037002631748855}
   rightWall: {fileID: 1014761839817876315}
   enemySpawner: {fileID: 3775103214830552507}
+  isBossRoom: 0
+  bossPrefab: {fileID: 6780494427414987267, guid: 9cab696e9c981854382da8acfb6ed954, type: 3}
 --- !u!114 &3775103214830552507
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3341,6 +3343,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefabs:
   - {fileID: 8782929760762610226, guid: 5cbeb380af389de4faa68e619a7b299a, type: 3}
+  - {fileID: 8782929760762610226, guid: 5cbeb380af389de4faa68e619a7b299a, type: 3}
+  - {fileID: 8039218526738220110, guid: 7b1c9a87bc03c31428f5c9b96ff8275a, type: 3}
   minEnemies: 2
   maxEnemies: 5
   spawnPoints:

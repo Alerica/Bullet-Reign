@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -7,6 +8,7 @@ public class PlayerInformation : MonoBehaviour
     [SerializeField] private Slider healthSlider;
     [SerializeField] private Slider staminaSlider;
     [SerializeField] private GameObject player;
+    [SerializeField] private TMP_Text moneyText;
 
     PlayerStats playerStats;
     private void Start()
@@ -27,6 +29,7 @@ public class PlayerInformation : MonoBehaviour
             {
                 healthSlider.value = playerStats.GetCurrentHealth();
                 staminaSlider.value = playerStats.GetCurrentStamina();
+                moneyText.text = playerStats.GetGold().ToString();
             }
         }
         else

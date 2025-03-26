@@ -128,8 +128,14 @@ public class RoomManager : MonoBehaviour
         if (topRoomScript != null) { newRoomScript.OpenDoor(Vector2Int.up); topRoomScript.OpenDoor(Vector2Int.down); }
     }
 
-    void OpenAllDoors()
+    private void OpenAllDoors()
     {
+        Room bossRoom = roomObjects[roomObjects.Count - 1].GetComponent<Room>(); // Last generated room
+        if (bossRoom != null)
+        {
+            bossRoom.SetBossRoom();
+        }
+
         foreach (var room in roomObjects)
         {
             Room roomScript = room.GetComponent<Room>();
@@ -140,6 +146,7 @@ public class RoomManager : MonoBehaviour
             }
         }
     }
+
 
     Room GetRoomScriptAt(Vector2Int index)
     {

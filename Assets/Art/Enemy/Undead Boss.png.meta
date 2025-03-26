@@ -112,7 +112,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -121,7 +121,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -201,7 +201,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Undead Boss_0
+      name: Undead Boss_Spawn_0
       rect:
         serializedVersion: 2
         x: 1
@@ -209,7 +209,7 @@ TextureImporter:
         width: 31
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -223,15 +223,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Undead Boss_1
+      name: Undead Boss_Spawn_1
       rect:
         serializedVersion: 2
         x: 33
-        y: 97
+        y: 128
         width: 31
-        height: 58
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -245,7 +245,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Undead Boss_2
+      name: Undead Boss_Spawn_2
       rect:
         serializedVersion: 2
         x: 65
@@ -253,7 +253,7 @@ TextureImporter:
         width: 31
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -267,7 +267,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Undead Boss_3
+      name: Undead Boss_Walk_2
       rect:
         serializedVersion: 2
         x: 65
@@ -275,7 +275,7 @@ TextureImporter:
         width: 31
         height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -289,7 +289,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Undead Boss_4
+      name: Undead Boss_Spawn_3
       rect:
         serializedVersion: 2
         x: 97
@@ -297,7 +297,7 @@ TextureImporter:
         width: 31
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -311,7 +311,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Undead Boss_5
+      name: Undead Boss_Walk_0
       rect:
         serializedVersion: 2
         x: 1
@@ -319,7 +319,7 @@ TextureImporter:
         width: 31
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -333,7 +333,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Undead Boss_6
+      name: Undead Boss_Walk_3
       rect:
         serializedVersion: 2
         x: 97
@@ -341,7 +341,7 @@ TextureImporter:
         width: 31
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -355,7 +355,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Undead Boss_7
+      name: Undead Boss_Attack_0
       rect:
         serializedVersion: 2
         x: 1
@@ -363,7 +363,7 @@ TextureImporter:
         width: 31
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -377,7 +377,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Undead Boss_8
+      name: Undead Boss_Attack_1
       rect:
         serializedVersion: 2
         x: 34
@@ -385,7 +385,7 @@ TextureImporter:
         width: 31
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -399,7 +399,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Undead Boss_9
+      name: Undead Boss_Attack_2
       rect:
         serializedVersion: 2
         x: 68
@@ -407,7 +407,7 @@ TextureImporter:
         width: 26
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -421,7 +421,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Undead Boss_10
+      name: Undead Boss_Attack_3
       rect:
         serializedVersion: 2
         x: 99
@@ -429,7 +429,7 @@ TextureImporter:
         width: 28
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -443,7 +443,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Undead Boss_11
+      name: Undead Boss_Knock_0
       rect:
         serializedVersion: 2
         x: 1
@@ -451,7 +451,7 @@ TextureImporter:
         width: 31
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -465,7 +465,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Undead Boss_12
+      name: Undead Boss_Knock_1
       rect:
         serializedVersion: 2
         x: 33
@@ -473,7 +473,7 @@ TextureImporter:
         width: 31
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -487,7 +487,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Undead Boss_13
+      name: Undead Boss_Death_2
       rect:
         serializedVersion: 2
         x: 64
@@ -495,7 +495,7 @@ TextureImporter:
         width: 35
         height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -509,13 +509,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Undead Boss_14
+      name: Undead Boss_Death_3
       rect:
         serializedVersion: 2
-        x: 64
-        y: 21
-        width: 10
-        height: 12
+        x: 100
+        y: 0
+        width: 28
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -531,29 +531,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Undead Boss_15
-      rect:
-        serializedVersion: 2
-        x: 89
-        y: 27
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4fa21f8534fbcfd20800000000000000
-      internalID: 3313733721813756660
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Undead Boss_16
+      name: Undead Boss_Death_0
       rect:
         serializedVersion: 2
         x: 1
@@ -561,7 +539,7 @@ TextureImporter:
         width: 31
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -575,7 +553,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Undead Boss_17
+      name: Undead Boss_Death_1
       rect:
         serializedVersion: 2
         x: 33
@@ -583,7 +561,7 @@ TextureImporter:
         width: 31
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -597,139 +575,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Undead Boss_18
-      rect:
-        serializedVersion: 2
-        x: 86
-        y: 10
-        width: 12
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 96a4c993ed0aa9450800000000000000
-      internalID: 6096361921909115497
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Undead Boss_19
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 0
-        width: 14
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 308a9efe217ea88c0800000000000000
-      internalID: -3996127650817398781
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Undead Boss_20
-      rect:
-        serializedVersion: 2
-        x: 102
-        y: 1
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 088f71c8db65d0900800000000000000
-      internalID: 652272893137778816
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Undead Boss_21
-      rect:
-        serializedVersion: 2
-        x: 105
-        y: 9
-        width: 16
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c3857ca515807ccb0800000000000000
-      internalID: -4843893728705292228
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Undead Boss_22
-      rect:
-        serializedVersion: 2
-        x: 113
-        y: 1
-        width: 10
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ec0c8bb74f068fd70800000000000000
-      internalID: 9077111652129226958
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Undead Boss_23
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 7
-        width: 7
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 709e005eb4ab3b820800000000000000
-      internalID: 2932892617475680519
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Undead Boss_24
+      name: Undead Boss_Death_4
       rect:
         serializedVersion: 2
         x: 130
@@ -737,7 +583,7 @@ TextureImporter:
         width: 29
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -751,7 +597,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Undead Boss_25
+      name: Undead Boss_Death_5
       rect:
         serializedVersion: 2
         x: 167
@@ -759,7 +605,7 @@ TextureImporter:
         width: 18
         height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -768,6 +614,28 @@ TextureImporter:
       bones: []
       spriteID: c7d2fc19d02247790800000000000000
       internalID: -7533358835007804036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead Boss_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 95
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150e1d50af664294d9606010b08fd36d
+      internalID: 2016283365
       vertices: []
       indices: 
       edges: []
@@ -786,32 +654,33 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Undead Boss_0: -5251507394882244131
-      Undead Boss_1: -3569277392578576508
-      Undead Boss_10: -7745659556392085582
-      Undead Boss_11: 6835642856550084162
-      Undead Boss_12: 5375435294787474194
-      Undead Boss_13: -4068845927092836015
-      Undead Boss_14: -505547901379603791
       Undead Boss_15: 3313733721813756660
-      Undead Boss_16: 7557949152340988682
-      Undead Boss_17: 623629335866909643
       Undead Boss_18: 6096361921909115497
       Undead Boss_19: -3996127650817398781
-      Undead Boss_2: 4852552726427134362
       Undead Boss_20: 652272893137778816
       Undead Boss_21: -4843893728705292228
       Undead Boss_22: 9077111652129226958
       Undead Boss_23: 2932892617475680519
-      Undead Boss_24: -2172726192829659757
-      Undead Boss_25: -7533358835007804036
-      Undead Boss_3: -3927787828343900525
-      Undead Boss_4: 3110479734221826952
-      Undead Boss_5: 4528994792061625132
-      Undead Boss_6: -1832789488398243358
-      Undead Boss_7: 6699318276556667595
-      Undead Boss_8: -61211927574146085
-      Undead Boss_9: 1754341506799538273
+      Undead Boss_Attack_0: 6699318276556667595
+      Undead Boss_Attack_1: -61211927574146085
+      Undead Boss_Attack_2: 1754341506799538273
+      Undead Boss_Attack_3: -7745659556392085582
+      Undead Boss_Death_0: 7557949152340988682
+      Undead Boss_Death_1: 623629335866909643
+      Undead Boss_Death_2: -4068845927092836015
+      Undead Boss_Death_3: -505547901379603791
+      Undead Boss_Death_4: -2172726192829659757
+      Undead Boss_Death_5: -7533358835007804036
+      Undead Boss_Knock_0: 6835642856550084162
+      Undead Boss_Knock_1: 5375435294787474194
+      Undead Boss_Spawn_0: -5251507394882244131
+      Undead Boss_Spawn_1: -3569277392578576508
+      Undead Boss_Spawn_2: 4852552726427134362
+      Undead Boss_Spawn_3: 3110479734221826952
+      Undead Boss_Walk_0: 4528994792061625132
+      Undead Boss_Walk_1: 2016283365
+      Undead Boss_Walk_2: -3927787828343900525
+      Undead Boss_Walk_3: -1832789488398243358
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

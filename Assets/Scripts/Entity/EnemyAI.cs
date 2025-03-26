@@ -1,22 +1,37 @@
 using UnityEngine;
+using System.Collections;
 
 public class EnemyAI : MonoBehaviour
 {
     [Header("References")]
     Animator animator;
+    [SerializeField] private Skill[] possibleSkills;
+    [SerializeField] private GameObject skillDropPrefab;
+    [SerializeField] private GameObject coinPrefab;
+    private SpriteRenderer spriteRenderer;
     [Header("Enemy Stats")]
     [SerializeField] private float moveSpeed = 2f;
     [SerializeField] private int maxHealth = 60;
-    
+    [SerializeField] private float skillDropChance = 0.1f;
+    [SerializeField] private float coinDropChance = 0.8f;
+    [SerializeField] private int minCoinDrop  = 1;
+    [SerializeField] private int maxCoinDrop = 3;
+    private Color originalColor;
+    private float originalSpeed;
     private int currentHealth;
     private Transform player;
     private Room currentRoom;
 
+
+
     private void Start()
     {
         currentHealth = maxHealth;
+        originalSpeed = moveSpeed;
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
+        originalColor = spriteRenderer.color;
     }
 
     private void Update()
@@ -44,8 +59,43 @@ public class EnemyAI : MonoBehaviour
         if (currentHealth <= 0)
         {
             Die();
+
+            // Chance to drop Item
+            if (Random.value < skillDropChance)
+            {
+                Skill droppedSkill = possibleSkills[Random.Range(0, possibleSkills.Length)];
+                GameObject skillDrop = Instantiate(skillDropPrefab, transform.position, Quaternion.identity);
+                skillDrop.GetComponent<SkillPickup>().skill = droppedSkill;
+            }
+
+            // Chance to drop Coin
+            int coinsToDrop = Random.Range(minCoinDrop, maxCoinDrop + 1); 
+            for (int i = 0; i < coinsToDrop; i++)
+            {
+                if (Random.value < coinDropChance) 
+                {
+                    Instantiate(coinPrefab, transform.position, Quaternion.identity);
+                }
+            }
+            
+
         } 
         animator.SetTrigger(StringManager.isHit);
+    }
+
+    public void ApplySlow(float slowFactor, float duration)
+    {
+        moveSpeed = originalSpeed * slowFactor;
+        StopAllCoroutines(); 
+        StartCoroutine(RemoveSlowAfterDelay(duration));
+    }
+
+    private IEnumerator RemoveSlowAfterDelay(float duration)
+    {
+        spriteRenderer.color = Color.blue;
+        yield return new WaitForSeconds(duration);
+        moveSpeed = originalSpeed; 
+        spriteRenderer.color = originalColor;
     }
 
     private void Die()

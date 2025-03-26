@@ -9,6 +9,8 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] private int maxHealth = 100;
     [SerializeField] private int maxStamina = 200;
     [SerializeField] private int staminaRegenRate = 10; 
+    [SerializeField] private int startingGold = 100;
+    private int currentGold;
     private int currentHealth;
     private int currentStamina;
     private float staminaRegenCooldown = 0;
@@ -16,13 +18,14 @@ public class PlayerStats : MonoBehaviour
     private void Start()
     {
         currentHealth = maxHealth;
-        currentStamina = 0;
+        currentStamina = maxStamina;
+        currentGold = startingGold;
         animator = GetComponent<Animator>();
     }
 
     private void FixedUpdate()
     {
-        Debug.Log(currentStamina);
+        // Debug.Log(currentStamina);
         RegenerateStamina();
     }
 
@@ -37,6 +40,17 @@ public class PlayerStats : MonoBehaviour
                 staminaRegenCooldown = 0f;
             }
         }
+    }
+
+    public bool HasEnoughStamina(int amount)
+    {
+        return currentStamina >= amount;
+    }
+
+    public void UseStamina(int amount)
+    {
+        currentStamina -= amount;
+        if (currentStamina < 0) currentStamina = 0;
     }
     public void TakeDamage(int damage)
     {
@@ -75,4 +89,13 @@ public class PlayerStats : MonoBehaviour
         return currentStamina;
     }
 
+    public int GetGold()
+    {
+        return currentGold;
+    }
+
+    public void AddGold(int amount)
+    {
+        currentGold += amount;
+    }
 }

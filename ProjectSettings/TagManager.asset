@@ -61,5 +61,11 @@ TagManager:
   - name: Door
     uniqueID: 2412155023
     locked: 0
+  - name: Coin Drop
+    uniqueID: 3019846525
+    locked: 0
+  - name: Skill Drop
+    uniqueID: 4223390849
+    locked: 0
   m_RenderingLayers:
   - Default

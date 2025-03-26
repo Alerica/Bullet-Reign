@@ -199,10 +199,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04b316ccff81b5c43894d59051571884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  possibleSkills:
+  - {fileID: 11400000, guid: 32c238ea15708204cbe69fe1c1f3fb87, type: 2}
+  skillDropPrefab: {fileID: 7434392777350127820, guid: 75a7f03f6b3e26b4b8c432fc0d673b0d, type: 3}
+  coinPrefab: {fileID: 8395328322001488179, guid: 801752017dde26f42a5202fe301f912e, type: 3}
   moveSpeed: 2
   maxHealth: 60
-  attackRange: 1.5
-  attackCooldown: 0.7
+  skillDropChance: 0.05
+  coinDropChance: 0.8
+  minCoinDrop: 1
+  maxCoinDrop: 3
 --- !u!114 &25537142242450452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -215,3 +221,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cd9385c1c865584589351098b21ef4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damage: 10
+  attackRange: 1.5
+  attackCooldown: 1

@@ -100,7 +100,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -109,7 +109,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -189,7 +189,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MINION_3_0
+      name: Armored_Undead_Idle_0
       rect:
         serializedVersion: 2
         x: 9
@@ -197,7 +197,7 @@ TextureImporter:
         width: 16
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -211,7 +211,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MINION_3_1
+      name: Armored_Undead_Idle_1
       rect:
         serializedVersion: 2
         x: 41
@@ -219,7 +219,7 @@ TextureImporter:
         width: 16
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -233,7 +233,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MINION_3_2
+      name: Armored_Undead_Idle_2
       rect:
         serializedVersion: 2
         x: 71
@@ -241,7 +241,7 @@ TextureImporter:
         width: 19
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -255,7 +255,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MINION_3_3
+      name: Armored_Undead_Idle_3
       rect:
         serializedVersion: 2
         x: 105
@@ -263,7 +263,7 @@ TextureImporter:
         width: 16
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -277,7 +277,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MINION_3_4
+      name: Armored_Undead_Walk_0
       rect:
         serializedVersion: 2
         x: 10
@@ -285,7 +285,7 @@ TextureImporter:
         width: 13
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -299,7 +299,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MINION_3_5
+      name: Armored_Undead_Walk_1
       rect:
         serializedVersion: 2
         x: 41
@@ -307,7 +307,7 @@ TextureImporter:
         width: 14
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -321,7 +321,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MINION_3_6
+      name: Armored_Undead_Walk_2
       rect:
         serializedVersion: 2
         x: 74
@@ -329,7 +329,7 @@ TextureImporter:
         width: 13
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -343,7 +343,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MINION_3_7
+      name: Armored_Undead_Walk_3
       rect:
         serializedVersion: 2
         x: 105
@@ -351,7 +351,7 @@ TextureImporter:
         width: 15
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -365,7 +365,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MINION_3_8
+      name: Armored_Undead_Attack_0
       rect:
         serializedVersion: 2
         x: 9
@@ -373,7 +373,7 @@ TextureImporter:
         width: 16
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -387,7 +387,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MINION_3_9
+      name: Armored_Undead_Attack_1
       rect:
         serializedVersion: 2
         x: 41
@@ -395,7 +395,7 @@ TextureImporter:
         width: 16
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -409,7 +409,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MINION_3_10
+      name: Armored_Undead_Attack_2
       rect:
         serializedVersion: 2
         x: 73
@@ -417,7 +417,7 @@ TextureImporter:
         width: 16
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -431,7 +431,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MINION_3_11
+      name: Armored_Undead_Attack_3
       rect:
         serializedVersion: 2
         x: 105
@@ -439,7 +439,7 @@ TextureImporter:
         width: 16
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -453,7 +453,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MINION_3_12
+      name: Armored_Undead_HIT_0
       rect:
         serializedVersion: 2
         x: 9
@@ -461,7 +461,7 @@ TextureImporter:
         width: 16
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -475,7 +475,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MINION_3_13
+      name: Armored_Undead_HIT_1
       rect:
         serializedVersion: 2
         x: 41
@@ -483,7 +483,7 @@ TextureImporter:
         width: 16
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -505,7 +505,7 @@ TextureImporter:
         width: 16
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -519,7 +519,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MINION_3_15
+      name: Armored_Undead_Dead_0
       rect:
         serializedVersion: 2
         x: 6
@@ -527,7 +527,7 @@ TextureImporter:
         width: 22
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -541,7 +541,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MINION_3_16
+      name: Armored_Undead_Dead_1
       rect:
         serializedVersion: 2
         x: 39
@@ -549,7 +549,7 @@ TextureImporter:
         width: 17
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -563,7 +563,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MINION_3_17
+      name: Armored_Undead_Dead_2
       rect:
         serializedVersion: 2
         x: 71
@@ -571,7 +571,7 @@ TextureImporter:
         width: 18
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -585,15 +585,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MINION_3_18
+      name: Armored_Undead_Dead_3
       rect:
         serializedVersion: 2
         x: 102
         y: 4
-        width: 57
+        width: 22
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -607,13 +607,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MINION_3_19
+      name: Armored_Undead_Dead_4
       rect:
         serializedVersion: 2
-        x: 102
-        y: 18
-        width: 6
-        height: 6
+        x: 129
+        y: 2
+        width: 30
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -624,50 +624,6 @@ TextureImporter:
       bones: []
       spriteID: 1f7fdc5776907eca0800000000000000
       internalID: -5987806839603070991
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MINION_3_20
-      rect:
-        serializedVersion: 2
-        x: 109
-        y: 16
-        width: 7
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 68ff4d67ae986b9a0800000000000000
-      internalID: -6217630595429367930
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MINION_3_21
-      rect:
-        serializedVersion: 2
-        x: 114
-        y: 5
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8dc1c30259d1f6eb0800000000000000
-      internalID: -4724524957760217896
       vertices: []
       indices: 
       edges: []
@@ -686,28 +642,29 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      MINION_3_0: -4351512549637398067
-      MINION_3_1: 510632772357838329
-      MINION_3_10: 8418317389132475762
-      MINION_3_11: 860631930439593197
-      MINION_3_12: -2448686667593575517
-      MINION_3_13: 8494969388398078053
+      Armored_Undead_2_: 5611663996620038140
+      Armored_Undead_Attack_0: 7423900123562080736
+      Armored_Undead_Attack_1: -940339449899009369
+      Armored_Undead_Attack_2: 8418317389132475762
+      Armored_Undead_Attack_3: 860631930439593197
+      Armored_Undead_Dead_0: -5527011330691292441
+      Armored_Undead_Dead_1: -3072712536118961864
+      Armored_Undead_Dead_2: 7499962862496737823
+      Armored_Undead_Dead_3: 3762774296132646373
+      Armored_Undead_Dead_4: -5987806839603070991
+      Armored_Undead_HIT_0: -2448686667593575517
+      Armored_Undead_HIT_1: 8494969388398078053
+      Armored_Undead_Idle_0: -4351512549637398067
+      Armored_Undead_Idle_1: 510632772357838329
+      Armored_Undead_Idle_2: 2789690960491410099
+      Armored_Undead_Idle_3: -1696370566134424477
+      Armored_Undead_Walk_0: -5079977197573743255
+      Armored_Undead_Walk_1: -5150593661047041265
+      Armored_Undead_Walk_2: 5611663996620038140
+      Armored_Undead_Walk_3: -8576030618669771296
       MINION_3_14: -3439351834871228146
-      MINION_3_15: -5527011330691292441
-      MINION_3_16: -3072712536118961864
-      MINION_3_17: 7499962862496737823
-      MINION_3_18: 3762774296132646373
-      MINION_3_19: -5987806839603070991
-      MINION_3_2: 2789690960491410099
       MINION_3_20: -6217630595429367930
       MINION_3_21: -4724524957760217896
-      MINION_3_3: -1696370566134424477
-      MINION_3_4: -5079977197573743255
-      MINION_3_5: -5150593661047041265
-      MINION_3_6: 5611663996620038140
-      MINION_3_7: -8576030618669771296
-      MINION_3_8: 7423900123562080736
-      MINION_3_9: -940339449899009369
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

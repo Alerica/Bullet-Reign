@@ -13,6 +13,8 @@ public class Room : MonoBehaviour
     [SerializeField] GameObject leftWall;
     [SerializeField] GameObject rightWall;
     [SerializeField] EnemySpawner enemySpawner;
+    [SerializeField] private bool isBossRoom = false; 
+    [SerializeField] private GameObject bossPrefab;   
     List<GameObject> enemies = new List<GameObject>();
 
     private List<GameObject> closedDoors = new List<GameObject>(); 
@@ -91,6 +93,16 @@ public class Room : MonoBehaviour
     private void ActivateRoom()
     {
         if (gameObject.name == StringManager.initialRoom) return;
+
+        if (isBossRoom)
+        {
+            Debug.Log("Boss Room Activated!");
+            SpawnBoss();
+            LockDoors();
+            return;
+        }
+
+
         if (enemies == null || enemies.Count == 0) 
         {
             enemies = enemySpawner.SpawnEnemies(this);
@@ -103,6 +115,22 @@ public class Room : MonoBehaviour
 
         LockDoors();
     }
+
+    private void SpawnBoss()
+    {
+        if (bossPrefab != null)
+        {
+            GameObject boss = Instantiate(bossPrefab, transform.position, Quaternion.identity);
+            enemies.Add(boss);
+        }
+    }
+
+    public void SetBossRoom()
+    {
+        isBossRoom = true;
+        Debug.Log($"{this.name} is now the Boss Room!");
+    }
+
 
 
     public void EnemyDefeated(GameObject enemy)
