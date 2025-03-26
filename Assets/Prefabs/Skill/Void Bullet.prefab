@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7427917618841832526}
   - component: {fileID: 927116003682283557}
   - component: {fileID: 8312659477821095028}
+  - component: {fileID: 7136731292347739328}
   m_Layer: 0
   m_Name: Void Bullet
   m_TagString: Untagged
@@ -179,3 +180,25 @@ MonoBehaviour:
   slowEffect: 0.5
   slowDuration: 3
   lifetime: 5
+--- !u!95 &7136731292347739328
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6538508136983483292}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9a90074bf9307d44ba417113a5b4d510, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

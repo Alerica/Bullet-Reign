@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5283417000232655383}
   - component: {fileID: 5171414220994711942}
   - component: {fileID: -1492983996871270960}
+  - component: {fileID: 2969004013197468769}
   m_Layer: 6
   m_Name: Ice Ball
   m_TagString: Untagged
@@ -179,3 +180,25 @@ MonoBehaviour:
   damage: 10
   slowAmount: 0.5
   slowDuration: 2
+--- !u!95 &2969004013197468769
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7587528028340096603}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 978fd5fe2252dec44b75147f57d12263, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
