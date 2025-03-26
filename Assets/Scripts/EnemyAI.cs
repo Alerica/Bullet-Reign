@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class EnemyAI : MonoBehaviour
 {
+    [Header("References")]
+    Animator animator;
     [Header("Enemy Stats")]
     [SerializeField] private float moveSpeed = 2f;
     [SerializeField] private int maxHealth = 60;
@@ -14,6 +16,7 @@ public class EnemyAI : MonoBehaviour
     {
         currentHealth = maxHealth;
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        animator = GetComponent<Animator>();
     }
 
     private void Update()
@@ -36,7 +39,8 @@ public class EnemyAI : MonoBehaviour
         if (currentHealth <= 0)
         {
             Die();
-        }
+        } 
+        animator.SetTrigger("isHit");
     }
 
     private void Die()

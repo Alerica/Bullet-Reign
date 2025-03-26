@@ -1090,7 +1090,7 @@ TextureImporter:
         width: 31
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1112,7 +1112,7 @@ TextureImporter:
         width: 15
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1121,6 +1121,28 @@ TextureImporter:
       bones: []
       spriteID: 7437d83a856d2894c8c19622dbc96461
       internalID: -1564810414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROBO_GOTHIT
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 126
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a047bf2df5c073e43ae211ea44b98a6f
+      internalID: 343603222
       vertices: []
       indices: 
       edges: []
@@ -1155,6 +1177,7 @@ TextureImporter:
       ROBO_Die_2: -1121718729395269272
       ROBO_Die_3: 1548384766690738962
       ROBO_Die_4: -723703791
+      ROBO_GOTHIT: 343603222
       ROBO_Hit_0: 3975451085255012696
       ROBO_Hit_1: 9023760295816537145
       ROBO_Idle_0: 1955705526970203076
