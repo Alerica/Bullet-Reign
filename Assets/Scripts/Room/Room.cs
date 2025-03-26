@@ -4,6 +4,7 @@ using System.Collections.Generic;
 public class Room : MonoBehaviour
 {
     [Header("References")]
+    [SerializeField] GameObject fog;
     [SerializeField] GameObject topDoor;
     [SerializeField] GameObject bottomDoor;
     [SerializeField] GameObject leftDoor;
@@ -92,6 +93,8 @@ public class Room : MonoBehaviour
 
     private void ActivateRoom()
     {
+        fog.SetActive(false);
+        
         if (gameObject.name == StringManager.initialRoom) return;
 
         if (isBossRoom)

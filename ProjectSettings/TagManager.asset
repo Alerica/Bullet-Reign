@@ -67,5 +67,8 @@ TagManager:
   - name: Skill Drop
     uniqueID: 4223390849
     locked: 0
+  - name: Fog
+    uniqueID: 685094027
+    locked: 0
   m_RenderingLayers:
   - Default
