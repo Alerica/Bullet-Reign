@@ -15,7 +15,7 @@ public class PlayerInformation : MonoBehaviour
         if (playerStats != null)
         {
             healthSlider.maxValue = playerStats.GetMaxHealth();
-            healthSlider.value = playerStats.GetCurrentHealth();
+            staminaSlider.maxValue = playerStats.GetMaxStamina();
         }
     }
 
