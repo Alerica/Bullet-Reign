@@ -2058,6 +2058,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 4152032527447742209, guid: 3d4c8a3f256e7394a842b6fc0bfca137, type: 3}
+      propertyPath: staminaRegenRate
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5027229792343354734, guid: 3d4c8a3f256e7394a842b6fc0bfca137, type: 3}
       propertyPath: m_SizeDelta.x
       value: 40.4883

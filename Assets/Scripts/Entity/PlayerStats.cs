@@ -16,7 +16,7 @@ public class PlayerStats : MonoBehaviour
     private void Start()
     {
         currentHealth = maxHealth;
-        currentStamina = 0;
+        currentStamina = maxStamina;
         animator = GetComponent<Animator>();
     }
 
@@ -37,6 +37,17 @@ public class PlayerStats : MonoBehaviour
                 staminaRegenCooldown = 0f;
             }
         }
+    }
+
+    public bool HasEnoughStamina(int amount)
+    {
+        return currentStamina >= amount;
+    }
+
+    public void UseStamina(int amount)
+    {
+        currentStamina -= amount;
+        if (currentStamina < 0) currentStamina = 0;
     }
     public void TakeDamage(int damage)
     {

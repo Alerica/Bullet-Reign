@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private SpriteRenderer spriteRenderer; 
     [SerializeField] private Slider rollCooldownBar;
     [SerializeField] private GameObject rollCooldownBarObject;
+    [SerializeField] private Skill defaultSkill;
 
 
     private Animator animator;
@@ -24,16 +25,23 @@ public class PlayerMovement : MonoBehaviour
     private float teleportCooldown = 0.2f; 
 
     Vector2 movement = Vector2.zero;
-    Vector2 mousePosition = Vector2.zero;
+    public Vector2 mousePosition = Vector2.zero;
     private bool isRolling = false;
     private bool canRoll = true;
-
     public bool canTeleport = true;
+
+    // Skill System
+    public Skill[] skillSlots = new Skill[4];
     
 
     void Awake()
     {
         animator = GetComponent<Animator>();
+    }
+
+    void Start()
+    {
+         skillSlots[0] = defaultSkill;
     }
 
     void Update()
@@ -61,6 +69,9 @@ public class PlayerMovement : MonoBehaviour
         {
             StartCoroutine(Roll());
         }
+
+        // Skill
+        HandleSkillInput();
     }
 
     void FixedUpdate()
@@ -84,6 +95,36 @@ public class PlayerMovement : MonoBehaviour
         Vector2 lookDirection = mousePosition - rb2d.position;
         float angle = Mathf.Atan2(lookDirection.y, lookDirection.x) * Mathf.Rad2Deg;
         gun.rotation = Quaternion.Euler(0, 0, angle);
+    }
+
+    void HandleSkillInput()
+    {
+        if (Input.GetKeyDown(KeyCode.Q) && skillSlots[0] != null)
+            skillSlots[0].Activate(this);
+        if (Input.GetKeyDown(KeyCode.W) && skillSlots[1] != null)
+            skillSlots[1].Activate(this);
+        if (Input.GetKeyDown(KeyCode.E) && skillSlots[2] != null)
+            skillSlots[2].Activate(this);
+        if (Input.GetKeyDown(KeyCode.R) && skillSlots[3] != null)
+            skillSlots[3].Activate(this);
+    }
+
+    public void AddSkill(Skill newSkill)
+    {
+        for (int i = 0; i < skillSlots.Length; i++)
+        {
+            if (skillSlots[i] == null)
+            {
+                skillSlots[i] = newSkill;
+                return;
+            }
+        }
+    }
+
+    public void RemoveSkill(int index)
+    {
+        if (index >= 0 && index < skillSlots.Length)
+            skillSlots[index] = null;
     }
 
     IEnumerator Roll()

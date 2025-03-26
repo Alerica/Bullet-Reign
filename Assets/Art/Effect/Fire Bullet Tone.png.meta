@@ -9504,11 +9504,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Bullet Tone_351
+      name: Fire_Ball_0
       rect:
         serializedVersion: 2
         x: 453
-        y: 187
+        y: 188
         width: 22
         height: 9
       alignment: 0
@@ -9526,7 +9526,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Bullet Tone_352
+      name: Fire_Ball_1
       rect:
         serializedVersion: 2
         x: 483
@@ -9548,7 +9548,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Bullet Tone_353
+      name: Fire_Ball_2
       rect:
         serializedVersion: 2
         x: 513
@@ -9570,12 +9570,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Bullet Tone_354
+      name: Fire_Ball_3
       rect:
         serializedVersion: 2
         x: 543
         y: 183
-        width: 66
+        width: 33
         height: 19
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -14717,6 +14717,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Fire_Ball_4
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 183
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba8909a684b6984ebca4f968049cf8f
+      internalID: 1190978074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -15015,10 +15037,6 @@ TextureImporter:
       Fire Bullet Tone_349: -1768425810492960196
       Fire Bullet Tone_35: -5270859539403336829
       Fire Bullet Tone_350: 6127349064091604840
-      Fire Bullet Tone_351: -6566302025896534854
-      Fire Bullet Tone_352: 4966007983133090065
-      Fire Bullet Tone_353: -8782550330144169078
-      Fire Bullet Tone_354: -7701478564415000440
       Fire Bullet Tone_355: 4611045516391954131
       Fire Bullet Tone_356: -3199345012728444650
       Fire Bullet Tone_357: -1207225517496740138
@@ -15318,6 +15336,11 @@ TextureImporter:
       Fire Bullet Tone_97: 7716106865182923482
       Fire Bullet Tone_98: 833666083791340743
       Fire Bullet Tone_99: 539314354820545144
+      Fire_Ball_0: -6566302025896534854
+      Fire_Ball_1: 4966007983133090065
+      Fire_Ball_2: -8782550330144169078
+      Fire_Ball_3: -7701478564415000440
+      Fire_Ball_4: 1190978074
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
