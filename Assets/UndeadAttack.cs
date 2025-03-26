@@ -31,7 +31,7 @@ public class UndeadAttack : MonoBehaviour
     private void Attack()
     {
         canAttack = false;
-        animator.SetTrigger("isAttack");
+        animator.SetTrigger(StringManager.attack);
 
         PlayerStats playerStats = player.GetComponent<PlayerStats>();
         if (playerStats != null)

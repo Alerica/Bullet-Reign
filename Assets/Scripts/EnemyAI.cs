@@ -31,6 +31,11 @@ public class EnemyAI : MonoBehaviour
     {
         Vector2 direction = (player.position - transform.position).normalized;
         transform.position += (Vector3)direction * moveSpeed * Time.deltaTime;
+
+        if (direction.x < 0)
+            transform.localScale = new Vector3(-6, 6, 6); 
+        else if (direction.x > 0)
+            transform.localScale = new Vector3(6, 6, 6);
     }
 
     public void TakeDamage(int damage)
@@ -40,7 +45,7 @@ public class EnemyAI : MonoBehaviour
         {
             Die();
         } 
-        animator.SetTrigger("isHit");
+        animator.SetTrigger(StringManager.isHit);
     }
 
     private void Die()

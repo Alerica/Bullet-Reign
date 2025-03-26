@@ -6,7 +6,7 @@ public class PlayerStats : MonoBehaviour
     Animator animator;
 
     [Header("Player Stats")]
-    [SerializeField] private int maxHealth = 60;
+    [SerializeField] private int maxHealth = 100;
     private int currentHealth;
     
     private void Start()
@@ -21,7 +21,7 @@ public class PlayerStats : MonoBehaviour
         {
             Die();
         } 
-        animator.SetTrigger("isHit");
+        animator.SetTrigger(StringManager.isHit);
     }
 
     private void Die()

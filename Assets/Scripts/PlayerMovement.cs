@@ -51,7 +51,7 @@ public class PlayerMovement : MonoBehaviour
         else if (movement.x < 0)
             spriteRenderer.flipX = true; 
 
-        animator.SetFloat("Speed", movement.sqrMagnitude);
+        animator.SetFloat(StringManager.speed, movement.sqrMagnitude);
 
         mousePosition = cam.ScreenToWorldPoint(Input.mousePosition);
 
@@ -90,7 +90,7 @@ public class PlayerMovement : MonoBehaviour
     {
         isRolling = true;
         canRoll = false;
-        animator.SetBool("IsRolling", true);
+        animator.SetBool(StringManager.isRolling, true);
 
         rollCooldownBarObject.SetActive(true); 
         rollCooldownBar.value = 0; 
@@ -98,7 +98,7 @@ public class PlayerMovement : MonoBehaviour
         yield return new WaitForSeconds(rollDuration);
 
         isRolling = false;
-        animator.SetBool("IsRolling", false);
+        animator.SetBool(StringManager.isRolling, false);
 
         float elapsedTime = 0f;
         while (elapsedTime < rollCooldown)

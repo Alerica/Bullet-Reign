@@ -653,6 +653,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Undead_GOTHIT
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 63
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666c40dead4918d408cbead80a0af728
+      internalID: 2122700596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -680,6 +702,7 @@ TextureImporter:
       Undead_Dead_4: -1116740022256540026
       Undead_Dead_Var_0: -3528550126013460627
       Undead_Dead_Var_1: 779934384818458567
+      Undead_GOTHIT: 2122700596
       Undead_Hit_0: -5368701874723462259
       Undead_Hit_1: -1882966073442250865
       Undead_Idle_0: 7306454602626371609
