@@ -54,7 +54,9 @@ public class EnemyAI : MonoBehaviour
         {
             currentRoom.EnemyDefeated(gameObject);
         }
-        Destroy(gameObject);
+        animator.SetTrigger("isDie"); 
+        GetComponent<Collider2D>().enabled = false;
+        Destroy(gameObject, 0.25f);
     }
 
     public void SetRoom(Room room)
