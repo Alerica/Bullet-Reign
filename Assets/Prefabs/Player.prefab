@@ -406,6 +406,7 @@ MonoBehaviour:
   rollCooldownBar: {fileID: 4677355969697617315}
   rollCooldownBarObject: {fileID: 5569469705036482121}
   defaultSkill: {fileID: 11400000, guid: 4ee29ee07a4bebe41a1d150b734a896c, type: 2}
+  skillCard: []
   movementSpeed: 5
   sprintMultiplier: 1.4
   rollMultiplier: 2
