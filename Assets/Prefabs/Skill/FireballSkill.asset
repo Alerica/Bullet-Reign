@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: FireballSkill
   m_EditorClassIdentifier: 
   skillName: Fire Ball
+  icon: {fileID: 1190978074, guid: 499b5aa4bef5aed4485a071194850f8c, type: 3}
   cooldown: 0
   fireballPrefab: {fileID: 7587528028340096603, guid: 1887a45894569e24581470c030eeede2, type: 3}
+  staminaCost: 20

@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Slider rollCooldownBar;
     [SerializeField] private GameObject rollCooldownBarObject;
     [SerializeField] private Skill defaultSkill;
+    [SerializeField] SkillCard[] skillCard;
 
 
     private Animator animator;
@@ -33,7 +34,6 @@ public class PlayerMovement : MonoBehaviour
     // Skill System
     public Skill[] skillSlots = new Skill[4];
     
-
     void Awake()
     {
         animator = GetComponent<Animator>();
@@ -42,6 +42,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
          skillSlots[0] = defaultSkill;
+         skillCard[0].SetSkill(skillSlots[0]);
     }
 
     void Update()
@@ -99,13 +100,13 @@ public class PlayerMovement : MonoBehaviour
 
     void HandleSkillInput()
     {
-        if (Input.GetKeyDown(KeyCode.Q) && skillSlots[0] != null)
+        if (Input.GetKeyDown(KeyCode.Alpha1) && skillSlots[0] != null)
             skillSlots[0].Activate(this);
-        if (Input.GetKeyDown(KeyCode.W) && skillSlots[1] != null)
+        if (Input.GetKeyDown(KeyCode.Alpha2) && skillSlots[1] != null)
             skillSlots[1].Activate(this);
-        if (Input.GetKeyDown(KeyCode.E) && skillSlots[2] != null)
+        if (Input.GetKeyDown(KeyCode.Alpha3) && skillSlots[2] != null)
             skillSlots[2].Activate(this);
-        if (Input.GetKeyDown(KeyCode.R) && skillSlots[3] != null)
+        if (Input.GetKeyDown(KeyCode.Alpha4) && skillSlots[3] != null)
             skillSlots[3].Activate(this);
     }
 
@@ -115,6 +116,7 @@ public class PlayerMovement : MonoBehaviour
         {
             if (skillSlots[i] == null)
             {
+                skillCard[i].SetSkill(newSkill);
                 skillSlots[i] = newSkill;
                 return;
             }
@@ -124,7 +126,10 @@ public class PlayerMovement : MonoBehaviour
     public void RemoveSkill(int index)
     {
         if (index >= 0 && index < skillSlots.Length)
+        {
             skillSlots[index] = null;
+            skillCard[index] = null;
+        }
     }
 
     IEnumerator Roll()

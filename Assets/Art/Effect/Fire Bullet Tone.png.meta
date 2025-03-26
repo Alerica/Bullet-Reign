@@ -14726,7 +14726,7 @@ TextureImporter:
         width: 33
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -14735,6 +14735,28 @@ TextureImporter:
       bones: []
       spriteID: aba8909a684b6984ebca4f968049cf8f
       internalID: 1190978074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Empty
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 229
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c9fa112cee75554cb333de1a561d7c8
+      internalID: -35491833
       vertices: []
       indices: 
       edges: []
@@ -14757,6 +14779,7 @@ TextureImporter:
       Default_Bullet_1: -560675613040035878
       Default_Bullet_2: -684127030617788920
       Default_Bullet_3: 2014906098
+      Empty: -35491833
       Fire Bullet Tone_0: -3443901804705070604
       Fire Bullet Tone_1: 2843516129849104208
       Fire Bullet Tone_10: -6574263655598801963

@@ -22,7 +22,7 @@ public class PlayerStats : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Debug.Log(currentStamina);
+        // Debug.Log(currentStamina);
         RegenerateStamina();
     }
 
