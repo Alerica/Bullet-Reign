@@ -3507,6 +3507,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 519420031}
     - target: {fileID: 5264098610853092606, guid: 3d4c8a3f256e7394a842b6fc0bfca137, type: 3}
+      propertyPath: defaultSkill
+      value: 
+      objectReference: {fileID: 11400000, guid: 902a32b153d342a42984600d8d9248dc, type: 2}
+    - target: {fileID: 5264098610853092606, guid: 3d4c8a3f256e7394a842b6fc0bfca137, type: 3}
       propertyPath: skillCard.Array.size
       value: 4
       objectReference: {fileID: 0}

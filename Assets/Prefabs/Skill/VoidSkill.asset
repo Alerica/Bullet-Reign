@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bd88bc37ccbc734288f6948dc2b674a, type: 3}
+  m_Name: VoidSkill
+  m_EditorClassIdentifier: 
+  skillName: Void Bullet
+  icon: {fileID: -1219108304, guid: 7f1af1f8808509e43840490ad9b08d6d, type: 3}
+  cooldown: 0
+  voidProjectilePrefab: {fileID: 6538508136983483292, guid: 902361f9f6521d64a861e5577fbd0060, type: 3}
+  staminaCost: 30

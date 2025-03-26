@@ -9,6 +9,8 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] private int maxHealth = 100;
     [SerializeField] private int maxStamina = 200;
     [SerializeField] private int staminaRegenRate = 10; 
+    [SerializeField] private int startingGold = 100;
+    private int currentGold;
     private int currentHealth;
     private int currentStamina;
     private float staminaRegenCooldown = 0;
@@ -17,6 +19,7 @@ public class PlayerStats : MonoBehaviour
     {
         currentHealth = maxHealth;
         currentStamina = maxStamina;
+        currentGold = startingGold;
         animator = GetComponent<Animator>();
     }
 
@@ -86,4 +89,13 @@ public class PlayerStats : MonoBehaviour
         return currentStamina;
     }
 
+    public int GetGold()
+    {
+        return currentGold;
+    }
+
+    public void AddGold(int amount)
+    {
+        currentGold += amount;
+    }
 }

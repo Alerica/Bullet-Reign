@@ -6,6 +6,7 @@ public class CoinPickup : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            other.GetComponent<PlayerStats>().AddGold(5);
             Destroy(gameObject);
         }
     }
