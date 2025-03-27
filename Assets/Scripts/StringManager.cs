@@ -5,4 +5,5 @@ public static class StringManager
     public static string attack = "isAttack";
     public static string isHit = "isHit";
     public static string isRolling = "IsRolling";
+    public static string isDie = "isDie";
 }

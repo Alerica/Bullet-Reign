@@ -517,7 +517,7 @@ TextureImporter:
         width: 28
         height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -627,7 +627,7 @@ TextureImporter:
         width: 30
         height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -636,6 +636,28 @@ TextureImporter:
       bones: []
       spriteID: 150e1d50af664294d9606010b08fd36d
       internalID: 2016283365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Undead_Boss_Hit
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 47
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8d0129b178aab4d849064cd84830c9
+      internalID: 1653101856
       vertices: []
       indices: 
       edges: []
@@ -681,6 +703,7 @@ TextureImporter:
       Undead Boss_Walk_1: 2016283365
       Undead Boss_Walk_2: -3927787828343900525
       Undead Boss_Walk_3: -1832789488398243358
+      Undead_Boss_Hit: 1653101856
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

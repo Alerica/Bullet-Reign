@@ -16,6 +16,7 @@ public class EnemyAI : MonoBehaviour
     [SerializeField] private float coinDropChance = 0.8f;
     [SerializeField] private int minCoinDrop  = 1;
     [SerializeField] private int maxCoinDrop = 3;
+    [SerializeField] private float deathDuration = 0.25f;
     private Color originalColor;
     private float originalSpeed;
     private int currentHealth;
@@ -104,9 +105,9 @@ public class EnemyAI : MonoBehaviour
         {
             currentRoom.EnemyDefeated(gameObject);
         }
-        animator.SetTrigger("isDie"); 
+        animator.SetTrigger(StringManager.isDie); 
         GetComponent<Collider2D>().enabled = false;
-        Destroy(gameObject, 0.25f);
+        Destroy(gameObject, deathDuration);
     }
 
     public void SetRoom(Room room)

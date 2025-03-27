@@ -11572,7 +11572,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Acid Bullet_445
+      name: Enemy
       rect:
         serializedVersion: 2
         x: 3
@@ -12056,7 +12056,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Acid Bullet_467
+      name: Enemy_Poison_Bullet_0
       rect:
         serializedVersion: 2
         x: 3
@@ -12078,7 +12078,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Acid Bullet_468
+      name: Enemy_Poison_Bullet_1
       rect:
         serializedVersion: 2
         x: 19
@@ -12100,7 +12100,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Acid Bullet_469
+      name: Enemy_Poison_Bullet_2
       rect:
         serializedVersion: 2
         x: 35
@@ -12122,7 +12122,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Acid Bullet_470
+      name: Enemy_Poison_Bullet_3
       rect:
         serializedVersion: 2
         x: 51
@@ -12144,7 +12144,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Acid Bullet_471
+      name: Enemy_Poison_Bullet_4
       rect:
         serializedVersion: 2
         x: 67
@@ -14341,7 +14341,6 @@ TextureImporter:
       Acid Bullet_442: 797644876074575613
       Acid Bullet_443: -3800554267696817422
       Acid Bullet_444: 4841694583823864614
-      Acid Bullet_445: 765422387013363554
       Acid Bullet_446: 1077944977078325374
       Acid Bullet_447: 6951851217304150514
       Acid Bullet_448: -5837160889449646293
@@ -14365,12 +14364,7 @@ TextureImporter:
       Acid Bullet_464: -6541112903018717610
       Acid Bullet_465: 212949689611060967
       Acid Bullet_466: -7125222185094849784
-      Acid Bullet_467: 662443902055985845
-      Acid Bullet_468: 7808378029238102131
-      Acid Bullet_469: 2179390272226896172
       Acid Bullet_47: -6337568341573429965
-      Acid Bullet_470: -2164559364777573163
-      Acid Bullet_471: -5323085924326565655
       Acid Bullet_472: -1187922683977441437
       Acid Bullet_473: -8835810246536461658
       Acid Bullet_474: -1376333668365033445
@@ -14509,6 +14503,12 @@ TextureImporter:
       Acid Bullet_97: -6743346935303148703
       Acid Bullet_98: 9125205794336450980
       Acid Bullet_99: 3820103461597563265
+      Enemy: 765422387013363554
+      Enemy_Poison_Bullet_0: 662443902055985845
+      Enemy_Poison_Bullet_1: 7808378029238102131
+      Enemy_Poison_Bullet_2: 2179390272226896172
+      Enemy_Poison_Bullet_3: -2164559364777573163
+      Enemy_Poison_Bullet_4: -5323085924326565655
       Poison_0: 2087289973185918125
       Poison_1: -5174608575772228450
       Poison_2: 4972945619812679866

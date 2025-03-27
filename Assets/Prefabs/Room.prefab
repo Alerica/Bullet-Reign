@@ -3346,7 +3346,9 @@ MonoBehaviour:
   enemyPrefabs:
   - {fileID: 8782929760762610226, guid: 5cbeb380af389de4faa68e619a7b299a, type: 3}
   - {fileID: 8782929760762610226, guid: 5cbeb380af389de4faa68e619a7b299a, type: 3}
+  - {fileID: 8782929760762610226, guid: 5cbeb380af389de4faa68e619a7b299a, type: 3}
   - {fileID: 8039218526738220110, guid: 7b1c9a87bc03c31428f5c9b96ff8275a, type: 3}
+  - {fileID: 6700539769640248964, guid: 9957e2971506519439ee7082227c1049, type: 3}
   minEnemies: 2
   maxEnemies: 5
   spawnPoints:

@@ -517,6 +517,7 @@ MonoBehaviour:
   maxHealth: 100
   maxStamina: 200
   staminaRegenRate: 10
+  startingGold: 100
 --- !u!1 &4241714204421425215
 GameObject:
   m_ObjectHideFlags: 0
