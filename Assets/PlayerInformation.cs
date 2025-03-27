@@ -10,6 +10,12 @@ public class PlayerInformation : MonoBehaviour
     [SerializeField] private GameObject player;
     [SerializeField] private TMP_Text moneyText;
 
+
+    [Header("Stats")]
+    [SerializeField] private TMP_Text maxHealthText;
+    [SerializeField] private TMP_Text regenHealthText;
+    [SerializeField] private TMP_Text speedText;
+    [SerializeField] private TMP_Text damageText;
     PlayerStats playerStats;
     private void Start()
     {
@@ -30,6 +36,10 @@ public class PlayerInformation : MonoBehaviour
                 healthSlider.value = playerStats.GetCurrentHealth();
                 staminaSlider.value = playerStats.GetCurrentStamina();
                 moneyText.text = playerStats.GetGold().ToString();
+                maxHealthText.text = PlayerStats.Instance.GetMaxHealth().ToString();
+                regenHealthText.text = PlayerStats.Instance.healthRegenRate.ToString();
+                speedText.text = PlayerStats.Instance.movementSpeed.ToString();
+                damageText.text = PlayerStats.Instance.damage.ToString();
             }
         }
         else

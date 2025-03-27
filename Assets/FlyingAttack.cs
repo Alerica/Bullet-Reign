@@ -4,12 +4,12 @@ public class FlyingAttack : MonoBehaviour
 {
     [Header("Attack Settings")]
     [SerializeField] private int damage = 10;
-    [SerializeField] private float attackRange = 5f; // Increased for ranged attack
+    [SerializeField] private float attackRange = 5f; 
     [SerializeField] private float attackCooldown = 2f;
 
     [Header("Projectile Settings")]
     [SerializeField] private GameObject projectilePrefab;
-    [SerializeField] private Transform firePoint; // Point where bullets spawn
+    [SerializeField] private Transform firePoint; 
     [SerializeField] private float projectileSpeed = 7f;
 
     private Animator animator;

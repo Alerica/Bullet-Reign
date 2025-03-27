@@ -136,6 +136,7 @@ MonoBehaviour:
   coinDropChance: 0.8
   minCoinDrop: 2
   maxCoinDrop: 4
+  deathDuration: 0.25
 --- !u!114 &8080793782400009261
 MonoBehaviour:
   m_ObjectHideFlags: 0

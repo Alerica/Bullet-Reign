@@ -14,11 +14,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Skill defaultSkill;
     [SerializeField] SkillCard[] skillCard;
 
-
     private Animator animator;
 
     [Header("Attributes")]
-    [SerializeField] private float movementSpeed = 5f;
     [SerializeField] private float sprintMultiplier = 1.4f;
     [SerializeField] private float rollMultiplier = 2f; 
     [SerializeField] private float rollDuration = 0.5f;
@@ -78,7 +76,7 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         
-        float currentSpeed = movementSpeed;
+        float currentSpeed = PlayerStats.Instance.movementSpeed;
 
         // Sprint
         if (Input.GetKey(KeyCode.LeftShift))
