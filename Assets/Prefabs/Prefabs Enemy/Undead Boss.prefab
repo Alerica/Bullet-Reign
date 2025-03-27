@@ -47,6 +47,7 @@ GameObject:
   - component: {fileID: 8325758395369055691}
   - component: {fileID: 1399959426424770360}
   - component: {fileID: 7234256966283637141}
+  - component: {fileID: 3946373004094234858}
   m_Layer: 0
   m_Name: Undead Boss
   m_TagString: Enemy
@@ -269,9 +270,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f50e0ae97b416c4ab80d7625144da03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
   attackRange: 5
   attackCooldown: 2
   projectilePrefab: {fileID: 31218292386652576, guid: 161c078c761cf454f82f68f31bf4292c, type: 3}
   firePoint: {fileID: 4369407027192109197}
-  projectileSpeed: 7
+--- !u!114 &3946373004094234858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6780494427414987267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a836c9a60f1c9d347b928873cc2ef949, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  portalPrefab: {fileID: 8203065716544325752, guid: 1889587fd820524499a0450d657b7dff, type: 3}

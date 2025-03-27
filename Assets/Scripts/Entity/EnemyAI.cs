@@ -105,6 +105,9 @@ public class EnemyAI : MonoBehaviour
         {
             currentRoom.EnemyDefeated(gameObject);
         }
+
+        BossSetting boss = GetComponent<BossSetting>();
+        if(boss != null) boss.OnBossDeath();
         animator.SetTrigger(StringManager.isDie); 
         GetComponent<Collider2D>().enabled = false;
         Destroy(gameObject, deathDuration);

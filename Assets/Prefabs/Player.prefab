@@ -407,7 +407,6 @@ MonoBehaviour:
   rollCooldownBarObject: {fileID: 5569469705036482121}
   defaultSkill: {fileID: 11400000, guid: 4ee29ee07a4bebe41a1d150b734a896c, type: 2}
   skillCard: []
-  movementSpeed: 5
   sprintMultiplier: 1.4
   rollMultiplier: 2
   rollDuration: 0.5
@@ -517,10 +516,12 @@ MonoBehaviour:
   maxHealth: 100
   maxStamina: 200
   staminaRegenRate: 10
+  healthRegenRate: 0
   startingGold: 100
+  movementSpeed: 5
+  damage: 10
   damageMultiplier: 1
   fireRate: 1
-  moveSpeed: 5
 --- !u!1 &4241714204421425215
 GameObject:
   m_ObjectHideFlags: 0
