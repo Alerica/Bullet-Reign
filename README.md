@@ -2,42 +2,6 @@
 
 **Bullet Reign** is a fast-paced **top-down shooter with roguelike elements**, developed to experiment with **Scriptable Objects in Unity**. Players will dodge enemy fire, collect powerful skills, and upgrade their character as they progress through procedurally generated levels.
 
-## Preview
-<img src="https://github.com/Alerica/Alerica/blob/main/Bullet-Reign-Clip.gif" alt="2" style="width:100%;height:auto;">
-
-## Controls
-<table> 
-   <tr>
-     <th>Keybind</th>
-     <th>Description</th>
-   </tr>
-   <tr>
-     <td>WASD</td>
-     <td>Move</td>
-   </tr>
-   <tr>
-     <td>Left Click</td>
-     <td>Shoot  </td>
-   </tr>
-   <tr>
-     <td>1,2,3,4</td>
-     <td>Use Skills </td>
-   </tr>
-   <tr>
-     <td>M</td>
-     <td>Toggle Map </td>
-   </tr>
-   <tr>
-     <td>Tab</td>
-     <td>Toggle Stats</td>
-   </tr>
-</table>
-
-## Skills & Upgrades
-- Enemies have a chance to drop **skills** that grant special abilities.  
-- At the end of each stage, players can **choose an upgrade** to enhance their power.  
-- Skills and Upgrade are both scriptable object
-
 ## Scripts and Feature
 Below are the commonly used scripts along with their descriptions. There are additional scripts in the project, but these are the core ones that define the general mechanics.
 <table>
@@ -75,6 +39,42 @@ Below are the commonly used scripts along with their descriptions. There are add
 - If the generated room count is too low, it **regenerates** to meet the minimum required rooms.  
 - **Boss rooms** are placed last, ensuring a structured progression.  
 - After all room are generated, opening each door inside the room
+
+## Preview
+<img src="https://github.com/Alerica/Alerica/blob/main/Bullet-Reign-Clip.gif" alt="2" style="width:100%;height:auto;">
+
+## Controls
+<table> 
+   <tr>
+     <th>Keybind</th>
+     <th>Description</th>
+   </tr>
+   <tr>
+     <td>WASD</td>
+     <td>Move</td>
+   </tr>
+   <tr>
+     <td>Left Click</td>
+     <td>Shoot  </td>
+   </tr>
+   <tr>
+     <td>1,2,3,4</td>
+     <td>Use Skills </td>
+   </tr>
+   <tr>
+     <td>M</td>
+     <td>Toggle Map </td>
+   </tr>
+   <tr>
+     <td>Tab</td>
+     <td>Toggle Stats</td>
+   </tr>
+</table>
+
+## Skills & Upgrades
+- Enemies have a chance to drop **skills** that grant special abilities.  
+- At the end of each stage, players can **choose an upgrade** to enhance their power.  
+- Skills and Upgrade are both scriptable object
 
 ## Assets
 ### Character
